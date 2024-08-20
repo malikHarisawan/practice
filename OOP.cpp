@@ -47,6 +47,25 @@ cin >> m2;
 cin >> m3;
 }
 };
+class D2: protected D1 {
+private: int y1;
+public: int y2;
+protected: int y3;
+public:
+void h1() {
+g1();
+g2();
+f1();
+f2();
+}
+protected:
+void h2() {
+g1();
+g2();
+f1();
+f2();
+}
+};
 int main(){
 
 D1 d1;
