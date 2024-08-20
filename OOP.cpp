@@ -31,6 +31,22 @@ cin >> m3;
 }
 };
 
+class D3: private B {
+private: int y1;
+public: int y2;
+protected: int y3;
+public:
+void g1(){
+cin >> y1;
+cin >> y2;
+cin >> y3;
+}
+void g2(){
+//cin >> m1;
+cin >> m2;
+cin >> m3;
+}
+};
 int main(){
 
 D1 d1;
